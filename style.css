@@ -1,0 +1,27 @@
+.header {
+    background: black;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu {
+    list-style-type: none;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    margin: 0px 2vw;
+}
+
+.link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+
+}
