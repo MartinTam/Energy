@@ -3,6 +3,8 @@ body, html {
     margin: 0;
 }
 
+/* ========================================== Home section: =================================================== */
+
 .home {
     background: url("images/home.jpg");
     height: 100%;
@@ -73,4 +75,36 @@ body, html {
     color: #ea0445;
     font-size: 1.3em;
 
+}
+
+/*===================================== Section 01: ===============================================*/
+
+
+.section01 {
+    background: url("images/section01.jpg");
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+#section01-header {
+    color: white;
+    font-family: sans-serif;
+    font-size: 6em;
+}
+
+#section01-lorem {
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5em;
+    text-align: center;
 }
