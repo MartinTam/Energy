@@ -65,10 +65,14 @@ body, html {
     line-height: 1.5em;
 }
 
-#button {
+#buttons {
+    margin: 5vh 0 0 10vw;
+    display: flex;
+    flex-direction: row;
+}
+#get-started {
     width: 10vw;
     height: 5vh;
-    margin: 5vh 0 0 10vw;
     background: #ea0445;
     border: 1px solid white;
     border-radius: 25px;
@@ -79,10 +83,9 @@ body, html {
 }
 
 
-#button:hover {
+#get-started:hover {
     width: 10vw;
     height: 5vh;
-    margin: 5vh 0 0 10vw;
     background: white;
     border: 1px solid white;
     border-radius: 25px;
@@ -91,6 +94,24 @@ body, html {
 
 }
 
+#learn-more {
+    width: 10vw;
+    height: 5vh;
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.3em;
+    margin: 0 0 0 2vw;
+
+    transition: all 0.2s ease;
+
+}
+
+#learn-more:hover {
+    background: white;
+    color: #ea0445;
+}
 /*===================================== Section 01: ===============================================*/
 
 
