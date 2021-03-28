@@ -194,6 +194,12 @@ body, html {
 
 }
 
+#section03-header {
+    color: white;
+    font-family: sans-serif;
+    font-size: 6em;
+    margin: 10vh 0 0 0;
+}
 /*=================================== Footer ===========================================================*/
 
 .footer {
@@ -209,5 +215,11 @@ body, html {
     flex-wrap: nowrap;
     
     align-items: center;
+    justify-content: center;
+}
 
+#copyright-text {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5em;
 }
