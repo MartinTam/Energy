@@ -143,3 +143,35 @@ body, html {
     line-height: 1.5em;
     text-align: center;
 }
+
+/*=================================== Section 02 ====================================================*/
+
+.section02 {
+    background: url("images/section02.jpg");
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+
+}
+
+#section02-header {
+    color: white;
+    font-family: sans-serif;
+    font-size: 6em;
+    margin: 20vh 0 0 60vw;
+}
+
+#section02-lorem {
+    margin: 0 0 0 61vw;
+    color: white;
+    font-family: sans-serif;
+    line-height: 1.5em;
+}
