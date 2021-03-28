@@ -175,3 +175,39 @@ body, html {
     font-family: sans-serif;
     line-height: 1.5em;
 }
+
+/*==================================== Section 03 =======================================================*/
+
+.section03 {
+    background: url("images/section03.jpg");
+    height: 100%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+
+}
+
+/*=================================== Footer ===========================================================*/
+
+.footer {
+    background: black;
+    height: 25%;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+
+}
