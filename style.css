@@ -46,3 +46,27 @@ body, html {
     font-family: sans-serif;
     margin: 0 0 0 10vw;
 }
+
+#button {
+    width: 10vw;
+    height: 5vh;
+    margin: 5vh 0 0 10vw;
+    background: #ea0445;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.3em;
+
+}
+
+
+#button:hover {
+    width: 10vw;
+    height: 5vh;
+    margin: 5vh 0 0 10vw;
+    background: white;
+    border: 1px solid white;
+    border-radius: 25px;
+    color: #ea0445;
+    font-size: 1.3em;
+}
