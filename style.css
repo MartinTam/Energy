@@ -200,6 +200,40 @@ body, html {
     font-size: 6em;
     margin: 10vh 0 0 0;
 }
+
+.box-for-boxes {
+    width: 70vw;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.minibox {
+    background: white;
+    width: 20vw;
+    height: 40vh;
+    margin: 0 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-header {
+    color: black;
+    font-family: sans-serif;
+
+}
+
+.box-lorem {
+    margin: 0 3vw;
+    text-align: center;
+}
 /*=================================== Footer ===========================================================*/
 
 .footer {
