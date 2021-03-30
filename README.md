@@ -3,7 +3,7 @@
 <p> It looks good only on a full screen computer browser, 
 but the design is not responsive for a smaller screen like mobile phone devices. </p>
 
-<p> Images used on the template are freely-usable images from [unsplash.com](https://unsplash.com/).
+<p> Images used on the template are freely-usable images from <a href = "https://unsplash.com/">unsplash.com</a>. </p>
 
 # Tools:
 HTML, CSS
